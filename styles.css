@@ -1,0 +1,87 @@
+#game {
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/trex.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+  }
+  
+  .jump {
+    animation: jump 0.5s linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 150px;
+    }
+
+    30% {
+      top: 90px;
+    }
+  
+    50% {
+      top: 40px;
+    }
+  
+    80% {
+      top: 90px;
+    }
+  
+    100% {
+      top: 150px;
+    }
+  }
+  
+  #cactus {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 110px;
+    left: 780px;
+  
+    background-image: url("img/cactus.png");
+    background-size: 20px 40px;
+  
+    animation: block 2.3s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 780px;
+    }
+  
+    100% {
+      left: 0px;
+    }
+  }
+
+  #capotte {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    top: -20px;
+    left: 580px;
+  
+    background-image: url("img/capotte.png");
+    background-size: 40px 30px;
+  
+    animation: block 6s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 780px;
+    }
+  
+    100% {
+      left: 0px;
+    }
+  }
