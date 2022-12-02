@@ -226,7 +226,38 @@
       </article>
     </main>
     <footer>
-      <p>Bryan Blin--Dorrard / Viard Théo</p>
-    </footer>
-  </body>
-</html>
+        <p>Bryan Blin--Dorrard / Viard Théo</p>
+        <a href="javascript: return false;" id="non">
+          <p id="egg">Ne pas se protéger</p>
+        </a>
+      </footer>
+    </body>
+    <script>
+      let nbEast = 0;
+      document.getElementById("non").onclick = bonsoirnon;
+      function bonsoirnon() {
+        switch (nbEast) {
+          case 0: {
+            document.getElementById("egg").innerHTML = "Êtes vous sur ?";
+            nbEast++;
+            break;
+          }
+          case 1: {
+            document.getElementById("egg").innerHTML =
+              "Vous risquez d'avoir des séquelles...";
+            nbEast++;
+            break;
+          }
+          case 2: {
+            document.getElementById("egg").innerHTML =
+              "Souhaitez vous vraiment ne pas vous protéger ?";
+            nbEast++;
+            break;
+          }
+          case 3: {
+              document.getElementById("non").innerHTML = "<a href='dead.html'><p id='egg'>Cliquez pour faire l'amour sans protection...</p></a>"
+            break;
+          }
+        }
+      }
+    </script>
