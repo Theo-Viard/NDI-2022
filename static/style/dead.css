@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  text-align: center;
+  margin-top: 10%;
+}
+
+p {
+  color: white;
+  font-size: 500%;
+  opacity: 0;
+  display: none;
+}
+
+#p1 {
+  animation: fade 3s;
+  display: block;
+}
+#p2 {
+  animation: fade 3s 3s;
+  display: block;
+}
+#p3 {
+  animation: fade 3s 6s;
+  display: block;
+}
+
+html{
+    animation: fadeHTML 3s 10s;
+    animation-fill-mode: forwards;  
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeHTML {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+    background-image: url("../images/reel.gif");
+    }
+  }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
