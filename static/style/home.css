@@ -99,3 +99,30 @@ footer{
     0% { opacity: 0;}
     100% { opacity: 1; }
 }
+
+.btnP {
+    text-align: center;
+}
+
+input[type="button"]{
+    background-color: #62529c;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #C4F5FC;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer>a {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(99, 188, 226)
+}
