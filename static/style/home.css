@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
 body{
   background-color: rgb(217, 237, 244);
 }
@@ -66,6 +69,16 @@ section{
 section>h2 {
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
+
+section>p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+section>ul>li {
+    padding-right: 8%;
+    font-family: 'Work Sans', sans-serif;
+}
+
 
 section:hover ul{
     animation-delay: 1s;
