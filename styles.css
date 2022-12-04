@@ -4,20 +4,20 @@
     border: 1px solid black;
     margin: auto;
   }
-  
-  #dino {
+
+  #bite {
     width: 50px;
     height: 50px;
-    background-image: url(img/trex.png);
+    background-image: url(img/bite.png);
     background-size: 50px 50px;
     position: relative;
     top: 150px;
   }
-  
+
   .jump {
     animation: jump 0.5s linear;
   }
-  
+
   @keyframes jump {
     0% {
       top: 150px;
@@ -39,20 +39,20 @@
       top: 150px;
     }
   }
-  
-  #cactus {
-    width: 20px;
+
+  #maladie {
+    width: 40px;
     height: 40px;
     position: relative;
     top: 110px;
     left: 780px;
   
-    background-image: url("img/cactus.png");
-    background-size: 20px 40px;
+    background-image: url("img/maladie.png");
+    background-size: 40px 40px;
   
     animation: block 2.3s infinite linear;
   }
-  
+
   @keyframes block {
     0% {
       left: 780px;
@@ -69,13 +69,8 @@
     position: relative;
     top: -20px;
     left: 580px;
-  
-    background-image: url("img/capotte.png");
-    background-size: 40px 30px;
-  
-    animation: block 6s infinite linear;
   }
-  
+
   @keyframes block {
     0% {
       left: 780px;
